@@ -7,39 +7,39 @@ In this lab, you will practice writing for loops, while loops, and using conditi
 
 This lab is used in CS 222 at Saint Mary's College of California. Written by Dr. Sarah Roscoe in 2024.
 
-This lab has instructions and explanations. For every instruction, there will be a link to some explanation or hint in a later part of the lab. *Ignore the explanations at your own risk!* Only do so if you're sure you know what you're doing.
+This lab has *instructions* and *explanations*. For every instruction, there will be a link to some explanation or hint in a later part of the lab. *Ignore the explanations at your own risk!* Only do so if you're sure you know what you're doing.
 
 There are also some *italicized* words, which are used to denote terminology you may be unfamiliar with. If you have questions about what these words mean, please ask the instructor or a peer tutor.
 
-Pieces of code or names of files/folders are denoted in `code font`.
+Pieces of code or names of files and folders are denoted in `code font`.
 
 # Instructions
 
-1. [Explanation](#installing) Install Eclipse and JDK.
+1. [Explanation](#installing) Install a JDK and Eclipse.
 
-2. [Explanation](#cloning) Clone the lab from github.
+2. [Explanation](#cloning) Clone the lab from Github.
 
 ## Beginning.java
 
-3. [Explanation](#opening-files) Expand the `src/main` packages and open the `Beginning.java` file.
+3. [Explanation](#opening-files) Expand the `src` folder and `main` package and open the `Beginning.java` file.
 
 4. [Explanation](#printing) Add another print statement to the `main()` method. In the print statement, say something you're looking forward to in this class.
 
-5. [Explanation](#variables) Declare five variables: an `int`, a `double`, a `String`, a `char` and a `bool`. Give them appropriate variable names of your choosing. Given the following list, assign each value to the appropriate variable:
+5. [Explanation](#variables) Declare five variables: an `int`, a `double`, a `String`, a `char` and a `bool`. Give each an appropriate variable name of your choosing. Given the following list of values, assign each value to the appropriate variable:
 
 `987` `'s'` `"Hello class"` `432.51` `true`
 
 ## Middle.java
 
-6. [Explanation](#for-loops) Open `Middle.java`. Look at the `for1thru10()` method and figure out what is the *initialization*, *condition*, and *update* steps of the loop. Write the correct code snippets in the comment space provided.
+6. [Explanation](#for-loops) Open `Middle.java`. Look at the `for1thru10()` method and figure out what is the *initialization*, *condition*, and *update* steps of the provided loop. Write the correct code snippets in the comment space provided.
 
-7. [Hints](#finding-the-sum) Look at `forSum()`. What are the initialization, condition, and update steps for a for loop, when we are given the array `arr`? How should we keep track of the sum as we go? Write your answer in comments in the`forSum()` method.
+7. [Hints](#finding-the-sum) Look at `forSum()`. What should be the initialization, condition, and update steps for a for loop, when we are given the array `arr`? How should we keep track of the sum as we go? Write your answer in comments in the`forSum()` method.
 
 8. [Hints](#finding-the-sum) Implement `forSum()` to sum the given array using a for loop. Replace `return 0;` with `return sum;`
 
 9. [Explanation](#while-loops) Look at `while1thru10()`. There are two questions in block comments similar to what you answered for `for1thru10()`. Answer the questions in the space provided.
 
-10. [Hints](#findingthesum) Look at `whileSum()`. What are the initialization, condition, and update steps for a while loop, when we are given the array `arr`? How should we keep track of the sum as we go? Write your answer in comments in the`whileSum()` method.
+10. [Hints](#findingthesum) Look at `whileSum()`. What should be the initialization, condition, and update steps for a while loop, when we are given the array `arr`? How should we keep track of the sum as we go? Write your answer in comments in the`whileSum()` method.
 
 11. [Hints](#findingthesum) Implement `whileSum()` to sum the given array using a while loop. Replace `return 0;` with `return sum;`
 
@@ -61,7 +61,22 @@ Pieces of code or names of files/folders are denoted in `code font`.
 
 ### Installing
 
-install eclipse, java
+You may have Java installed on your computer already which *runs* Java programs. To get started with coding Java, you need to install a Java Development Kit (JDK). Here's a link to install an open-source JDK: 
+
+https://adoptium.net/ 
+
+Next, you need to install your IDE (coding environment). You should use Eclipse for this class. Download the Eclipse Installer first:
+
+https://www.eclipse.org/downloads/
+
+NOTE: If you're on a NEW MAC (with an M1+ chip), you should download the AARCH_64 version. For almost any other computer, download the x86_64 version (for Intel chips). Ask the instructor if you're not sure which to get. 
+
+Then, open the installer. Install the "Eclipse IDE for Java Developers". 
+
+Once it's installed, launch Eclipse. Select a workspace (default option is fine), then click "Launch"
+
+IMAGE GOES HERE
+
 
 [Go back to the instructions](#instructions)
 
