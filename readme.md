@@ -75,14 +75,86 @@ Then, open the installer. Install the "Eclipse IDE for Java Developers".
 
 Once it's installed, launch Eclipse. Select a workspace (default option is fine), then click "Launch"
 
-IMAGE GOES HERE
-
+<p align="center">
+<img src="images/eclipse-workspace.png" alt="Opening Eclipse Workspace" width="50%"/>
+</p>
 
 [Go back to the instructions](#instructions)
 
 ### Cloning
 
-clone from github
+Once you've opened an Eclipse window (like so),  
+
+<p align="center">
+<img src="images/eclipse-open.png" alt="How Eclipse looks" width="50%"/>
+</p>
+
+On the left is the package explorer, how we navigate our projects and files. The center is where the editor will be. The bottom is the _console,_ which shows the output of our programs. The right hand side currently (on my computer) have the task list and outline, both of which are optional. You can close those two if you want, or leave them open -- doesn't matter.
+
+We need to check out the code from Github. You're encouraged but not required to learn Github for this class. We'll use it for storing the code online. 
+
+The code for this lab lives in the cloud, on the Github website. You'll need to *clone* the lab, which copies the online code to your local computer. That way you can edit and run it. 
+
+To do that, we need to switch to a different _perspective_. Chances are, you start Eclipse in the Java perspective, which is where you can edit and run Java files. That makes sense. We need to switch to the _Git_ perspective, which is where we can clone the code to our computer. 
+
+To do that, click the small icon on the top right that says "GIT":
+
+<p align="center">
+<img src="images/git-perspective.png" alt="Opening git perspective" width="50%"/>
+</p>
+
+This changes the layout a bit: the package explorer has now been changed to a panel called "Git Repositories". There should be several icons directly below the panel title. Click on the icon with a cloud and green arrow to clone a repository.
+
+<p align="center">
+<img src="images/git-clone.png" alt="Clone repo icon" width="50%"/>
+</p>
+
+That makes a box pop up. Select "Clone URI" and hit "Next".
+
+<p align="center">
+<img src="images/clone-uri.png" alt="Clone uri" width="50%"/>
+</p>
+
+Copy the link for this lab an paste it in the URI field.
+
+You can copy it here: https://github.com/sroscoe2/CS222-Lab-01.git
+Or, scroll up to the top of this page, click the green button that says `< > Code`, then click the icon to copy the link.
+
+<p align="center">
+<img src="images/github-link.png" alt="clone from github" width="50%"/>
+</p>
+
+Paste the link into the URI field in the "Clone Git Repository" window that's popped up. Click Next. 
+
+**VERY IMPORTANT!!!!!** DO NOT SPEED THROUGH THESE STEPS!
+
+When prompted for Branch Selection, hit next again. 
+
+When prompted for "Local Destination" settings, you are saying where it's going to live on your computer. Change the name of the directory from just "CS222-Lab-01" to add your first name and last initial before the "CS222" bit.
+
+<p align="center">
+<img src="images/import-settings.png" alt="import settings" width="50%"/>
+</p>
+
+So, if my name is Sarah Roscoe, I'm saving the lab as "sarahR-CS222-Lab-01". 
+
+THEN, make sure the "Import all existing Eclipse projects after clone finishes" is CHECKED. Then click Finish.
+
+Click on the button in the top right to go back to the Java perspective.
+
+<p align="center">
+<img src="images/java-perspective.png" alt="back to java perspective" width="50%"/>
+</p>
+
+**VERY IMPORTANT!** If you DON'T have that box checked before you click Finish, you need to import it manually. To do that:
+1. Go back to the Java perspective
+2. Right click in the Package Explorer -> select Import
+3. Go to General -> Import projects from folder or archive
+4. Click Directory, then navigate to where the project is stored. Eclipse usually saves it in `/Users/git/...`
+5. Select the project folder. Just the top-level one, like "sarahR-CS222-Lab-01", not any of its subfolders.
+6. Click Open, then Finish in the other dialog box. 
+
+Congrats! If you go back to the Java perspective, you should see your imported project.
 
 [Go back to the instructions](#instructions)
 
@@ -238,7 +310,7 @@ To write a `for` loop in Java, we need 3 components:
 
 3. an *update* step, in this case `i++`.
 
-Note that Java **requires** the `for` loop to put the components in parentheses `( )`. The conditions of a `for` loop must be separated by semicolons `;` The code to be executed must be within curly brackets `{ }`
+Note that Java **requires** the `for` loop to put the components in parentheses `( )`. The components of a `for` loop must be separated by semicolons `;` The code to be executed must be within curly brackets `{ }`
   
 #### Initialization
 
@@ -451,6 +523,18 @@ For Lab 1, there are only test cases for `Middle.java` and `End.java`. Here's ho
 
 ## Finishing Up
 
-find in file exploreer ("File Explorer" windows, "Finder" Mac)
-zip it
-submit the zip to Canvas.
+When you are done with the assignment, submit it to Canvas. You should zip your entire project file, and then submit the zip file to Canvas. _Do not submit only .java files to Canvas_.
+
+1. Reveal your project in your computer's file explorer ("File Explorer" on Windows, "Finder" on Mac). In the Package Explorer, right-click on the project name. Select , then select "Reveal in Finder" (Mac) or "Reveal in File Explorer" (Windows).
+
+<p align="center">
+<img src="images/show-in.png" alt="show in system explorer" width="50%"/>
+</p>
+
+2. Right click on the folder name and click "Compress" (Mac) or "Send to -> Compressed (zipped) folder" (Windows).
+3. Open a browser window to Canvas: https://stmarys-ca.instructure.com/
+4. Login and select our course.
+5. Navigate to the "Lab 1" assignment and click on it.
+6. Hand in the following file: `firstnameL-CS222-Lab01.zip`
+  You can either click to upload files from your file explorer, or you can drag-and-drop the files. You will be able to re-handin the assignment as many times as you want up until the due date.
+
