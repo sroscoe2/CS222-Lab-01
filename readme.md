@@ -168,6 +168,10 @@ When you open a file, it'll open in the editor, which is the middle pane in your
 
 To run the file, as long as it has a `main()` method, click the green play button. Many lab files will have main methods where you can briefly check if your code is working as desired.
 
+<p align="center">
+<img src="images/run.png" alt="run the file" width="50%"/>
+</p>
+
 [Go back to the instructions](#beginningjava)
 
 ### Printing
@@ -517,6 +521,19 @@ For Lab 1, there are only test cases for `Middle.java` and `End.java`. Here's ho
 3. Click the green play button to run all tests.
 4. If it didn't open automatically, click on the JUnit tab next to the Package Explorer tab. The left hand side should show you some information. (see picture below) On the top is the report of tests. On the bottom is the failure trace. If all tests pass, you should see green check marks next to each test name. If some tests fail, you'll see gray or blue Xs on the little icons.
  1. You can see why the test failed by looking at the panel below that, the *Failure Trace*. This will tell you why JUnit thinks your test failed. It's very bare bones: if the output doesn't match, the test will fail.
+
+<p align="center">
+<img src="images/test-cases-failed.png" alt="Failed test cases" width="50%"/>
+  Failed test cases.
+</p>
+
+
+
+<p align="center">
+<img src="images/test-cases-passeded.png" alt="Passing test cases" width="50%"/>
+  Passing test cases (good to go!)
+</p>
+
 
 [Go back to Middle instructions](#middlejava) or [Go back to End instructions](#endjava) 
 
