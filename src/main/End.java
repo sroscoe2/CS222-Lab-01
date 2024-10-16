@@ -35,9 +35,9 @@ public class End {
 		double val = permitCosts[randomIndex];		
 		
 		// the following should output either "Student", "Employee", "Disabled", or "Visitor"
-		System.out.printf("Permit belongs to: %f",categorizePermits(val));
+		System.out.printf("Permit belongs to: %s\n",categorizePermits(val));
 		// the following should output "nobody" 
-		System.out.printf("Permit belongs to: %f",categorizePermits(22.36));
+		System.out.printf("Permit belongs to: %s\n",categorizePermits(22.36));
 		
 		
 	}
