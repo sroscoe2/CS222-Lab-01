@@ -53,7 +53,7 @@ Pieces of code or names of files and folders are denoted in `code font`.
 
 ## Finishing Up
 
-15. [Explanation](#finishing-up) Zip your project folder and turn it into Canvas.
+15. [Explanation](#turning-in) Zip your project folder and turn it into Canvas.
 
 # Explanations
 
@@ -544,7 +544,7 @@ For Lab 1, there are only test cases for `Middle.java` and `End.java`. Here's ho
 [Go back to Middle instructions](#middlejava) or [Go back to End instructions](#endjava) 
 
 
-## Finishing Up
+## Turning In
 
 When you are done with the assignment, submit it to Canvas. You should zip your entire project file, and then submit the zip file to Canvas. _Do not submit only .java files to Canvas_.
 
