@@ -506,6 +506,8 @@ Additionally, if the permit price given to you is not any of these options, you 
 
 Note that for the tests to pass, you must LITERALLY return the strings "Student", "Disabled", "Employee", "Visitor", or "nobody" depending on the case. Capitalization matters. If you return anything else, your tests will fail.
 
+[Go back to the instructions](#endjava)
+
 ## JUnit Tests
 
 To make grading easier, we'll use *unit tests* a lot of the time. Unit tests are there to check that your code produces the desired results. Most of the time, it relies on output checking. For example, for the sum problems, I've got some arrays of integers, and I know what the sum of those arrays should be. I call your method and give it my array, and expect the sum your code calculates to match mine.
@@ -561,3 +563,4 @@ When you are done with the assignment, submit it to Canvas. You should zip your 
 6. Hand in the following file: `firstnameL-CS222-Lab01.zip`
   You can either click to upload files from your file explorer, or you can drag-and-drop the files. You will be able to re-handin the assignment as many times as you want up until the due date.
 
+[Go back to the instructions](#finishing-up)
