@@ -517,6 +517,12 @@ Additionally, the test cases may not cover every possible *edge case*. There may
 For Lab 1, there are only test cases for `Middle.java` and `End.java`. Here's how to run the test cases:
 
 1. Go to the "Package Explorer" tab on the left hand side of your window. Expand the `src` folder for this lab, then expand the `test` package. Find the appropriate set of test cases you want to run (for `Middle` or `End`). They're very helpfully named (if I do say so myself) `MiddleTests.java` and `EndTests.java`.
+
+
+<p align="center">
+<img src="images/pkg-explorer-junit.png" alt="junit tab" width="50%"/>
+</p>
+
 2. Double click to open the file.
 3. Click the green play button to run all tests.
 4. If it didn't open automatically, click on the JUnit tab next to the Package Explorer tab. The left hand side should show you some information. (see picture below) On the top is the report of tests. On the bottom is the failure trace. If all tests pass, you should see green check marks next to each test name. If some tests fail, you'll see gray or blue Xs on the little icons.
@@ -530,7 +536,7 @@ For Lab 1, there are only test cases for `Middle.java` and `End.java`. Here's ho
 
 
 <p align="center">
-<img src="images/test-cases-passeded.png" alt="Passing test cases" width="50%"/>
+<img src="images/test-cases-passed.png" alt="Passing test cases" width="50%"/>
   Passing test cases (good to go!)
 </p>
 
