@@ -25,7 +25,7 @@ Pieces of code or names of files and folders are denoted in `code font`.
 
 4. [Explanation](#printing) Add another print statement to the `main()` method. In the print statement, say something you're looking forward to in this class.
 
-5. [Explanation](#variables) Declare five variables: an `int`, a `double`, a `String`, a `char` and a `bool`. Give each an appropriate variable name of your choosing. Given the following list of values, assign each value to the appropriate variable:
+5. [Explanation](#variables) Declare five variables: an `int`, a `double`, a `String`, a `char` and a `boolean`. Give each an appropriate variable name of your choosing. Given the following list of values, assign each value to the appropriate variable:
 
 `987` `'s'` `"Hello class"` `432.51` `true`
 
@@ -53,7 +53,7 @@ Pieces of code or names of files and folders are denoted in `code font`.
 
 ## Finishing Up
 
-15. Zip your project folder and turn it into Canvas.
+15. [Explanation](#finishing-up) Zip your project folder and turn it into Canvas.
 
 # Explanations
 
