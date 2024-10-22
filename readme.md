@@ -560,7 +560,7 @@ When you are done with the assignment, submit it to Canvas. You should zip your 
 3. Open a browser window to Canvas: https://stmarys-ca.instructure.com/
 4. Login and select our course.
 5. Navigate to the "Lab 1" assignment and click on it.
-6. Hand in the following file: `firstnameL-CS222-Lab01.zip`
+6. Hand in the following file: `firstnameLI-CS222-Lab-01.zip`
   You can either click to upload files from your file explorer, or you can drag-and-drop the files. You will be able to re-handin the assignment as many times as you want up until the due date.
 
 [Go back to the instructions](#finishing-up)
