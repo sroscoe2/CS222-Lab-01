@@ -192,6 +192,8 @@ There is a single *method*, called `main()` in the `Beginning` class. In Java, w
 
 - `println()`, which is equivalent to `print()` in Python. This option adds a new line to the end of whatever you're printing. This is the one we use most often, but you may switch to another option depending on your preference or needs.
 
+**Helpful Hint:** If using Eclipse, you can type `sysout` and  then `ctrl + space` to pull up options. Usually the first option shown says "sysout - print to standard out". Click on it or press `enter`, and it'll autofill `System.out.println()`. If using VS Code, typing `sysout` will usually bring up a snippet, and you can press `enter` to select `System.out.println()`.
+
 [Go back to the instructions](#beginningjava)
 
 ### Variables
